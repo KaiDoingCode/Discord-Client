@@ -2,7 +2,7 @@ import axios from "axios";
 import { logout } from "./shared/utils/auth";
 
 const apiClient = axios.create({
-  baseURL: "https://discord-server-tuphung.herokuapp.com/api",
+  baseURL: "https://discord-app-tuphung.herokuapp.com/api",
   timeout: 1000,
 });
 
